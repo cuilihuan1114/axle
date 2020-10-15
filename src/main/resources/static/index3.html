@@ -1,0 +1,293 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>WebSocket</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="https://static.jianshukeji.com/highcharts/images/favicon.ico">
+    <script src="https://code.highcharts.com.cn/jquery/jquery-1.8.3.min.js"></script>
+    <script src="https://code.highcharts.com.cn/highstock/highstock.js"></script>
+    <script src="https://code.highcharts.com.cn/highcharts/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com.cn/highcharts-plugins/highcharts-zh_CN.js"></script>
+</head>
+
+<body>
+Welcome<br/>
+<input id="text" type="text"/>
+<button onclick="send()">Send</button>
+<button οnclick="closeWebSocket()">Close</button>
+<div id="message">
+</div>
+<div id="container" style="height: 400px; max-width: 800px; margin: 0 auto"></div>
+<script>
+    // JS 代码
+</script>
+</body>
+
+<script type="text/javascript">
+    Highcharts.setOptions({
+        global: {
+            useUTC: false
+        }
+    });
+    // Create the chart
+    var chart = Highcharts.stockChart('container', {
+        chart: {
+            events: {
+                load: function () {
+                    // set up the updating of the chart each second
+                    var series = this.series[0];
+                    setInterval(function () {
+                        $.ajax({
+                            url: '/message/increment/rowdata/1',
+                            success: function (data) {
+                                console.log(data.length);
+
+                                for (var i = 0, l = data.length - 1; i <= l; i++) {
+                                        var x = data[i].time;
+                                    //     var y = data[i].data;
+                                    //     // console.log(x+" "+y);
+                                    //     series.addPoint([x, y], true, true);
+                                    // }
+                                    // console.log(data[i].data);
+                                    // var x = (new Date()).getTime(), // current time
+                                        y = parseFloat(data[i].data);
+                                    // y = Math.round(Math.random() * 2);
+                                    // increateData.push([x, y]);
+                                    series.addPoint([x, y], true,true);
+
+                                    // if (i % 5 == 0) {
+                                    // alert("aa");
+                                    // chart.redraw();
+                                    // }
+
+                                }
+
+                            }
+                        });
+                    }, 10);
+
+
+                    // setInterval(function () {
+                    //
+                    //     // alert(data.length);
+                    //     // for (var i = 0, l = data.length-1; i < l; i++) {
+                    //     //     var x = data[i].time;
+                    //     //     var y = data[i].data;
+                    //     //     // console.log(x+" "+y);
+                    //     //     series.addPoint([x, y], true, true);
+                    //     // }
+                    //     // console.log(data[i].data);
+                    //     if (increateData.length > 0)
+                    //         series.addPoint(increateData.pop(), true,true);
+                    //
+                    //     // chart.redraw();
+                    //
+                    //     // }
+                    //
+                    //
+                    // }, 1);
+
+
+                }
+            }
+        },
+        rangeSelector: {
+            buttons: [{
+                count: 1,
+                type: 'minute',
+                text: '1M'
+            }, {
+                count: 2,
+                type: 'minute',
+                text: '2M'
+            }, {
+                type: 'all',
+                text: 'All'
+            }],
+            inputEnabled: false,
+            selected: 0
+        },
+        title: {
+            text: '原始数据实时动态统计分析'
+        },
+        tooltip: {
+            split: false
+        },
+        exporting: {
+            enabled: true
+        },
+        credits: {
+            enabled: false     //不显示LOGO
+        },
+        series: [{
+            name: '随机数据',
+            data: (function () {
+                var numbers = [];
+
+                $.ajax({
+                    url: '/message/init/rowdata/1',
+                    async: false,
+                    success: function (data) {
+                        for (var i = 0; i < data.length; i++) {
+
+                            var x = data[i].time;
+
+                            var y = parseFloat(data[i].data);
+
+                            console.log(x + " " + y);
+                            numbers.push([x, y]);
+                        }
+
+                        // console.log(data);
+                        // var x = (new Date()).getTime(), // current time
+                        //     y = Math.round(Math.random() * 100);
+                        // series.addPoint([x, y], true, true);
+                        // var  time = (new Date()).getTime(), i;
+                        // for (i = -3000; i <= 0; i += 1) {
+                        //     data.push([
+                        //         time + i * 100,
+                        //         Math.round(Math.random() * 100)
+                        //     ]);
+                        // }
+                    }
+                });
+                // alert(numbers.length);
+                return numbers;
+
+                // generate an array of random data
+                // var data = [], time = (new Date()).getTime(), i;
+                // for (i = -3000; i <= 0; i += 1) {
+                //     data.push([
+                //         time + i * 100,
+                //         Math.round(Math.random() * 100)
+                //     ]);
+                // }
+                // return data;
+            }())
+        }]
+    });
+    // Highcharts.setOptions({
+    //     global: {
+    //         useUTC: false
+    //     }
+    // });
+    // // Create the chart
+    // Highcharts.stockChart('container', {
+    //     chart: {
+    //         events: {
+    //             load: function () {
+    //                 // set up the updating of the chart each second
+    //                 var series = this.series[0];
+    //                 setInterval(function () {
+    //                     $.ajax({
+    //                         url: '/message',
+    //                         success: function (point) {
+    //                             // console.log("aa");
+    //                             var x = (new Date()).getTime(), // current time
+    //                                 y = Math.random() * 100;
+    //                             series.addPoint([x, y], true, true);
+    //                         }
+    //                     });
+    //                 }, 5);
+    //             }
+    //         },
+    //         // zoomType: 'x'
+    //
+    //     },
+    //
+    //
+    //     rangeSelector: {
+    //         buttons: [
+    //             {
+    //                 count: 2,
+    //                 type: 'minute',
+    //                 text: '2M'
+    //             },{
+    //                 count: 1,
+    //                 type: 'minute',
+    //                 text: '1M'
+    //             },  {
+    //             count: 20,
+    //             type: 'second',
+    //             text: '20s'
+    //         }, {
+    //             count: 10,
+    //             type: 'second',
+    //             text: '10s'
+    //         },
+    //                 // {
+    //         //     type: 'all',
+    //         //     text: 'All'
+    //         // }
+    //             ],
+    //
+    //         // selected: 0,
+    //         // enabled: false
+    //     },
+    //     boost: {
+    //         useGPUTranslations: true
+    //     },
+    //
+    //     title: {
+    //         text: 'Live random data'
+    //     },
+    //     tooltip: {
+    //         split: true,
+    //         valueDecimals: 2
+    //     },
+    //     credits: {
+    //         enabled: false     //不显示LOGO
+    //     },
+    //
+    //     exporting: {
+    //         enabled: true
+    //     },
+    //
+    //     // xAxis: {
+    //     //     max: 50000
+    //     // },
+    //     series: [{
+    //         name: '随机数据',
+    //         data:
+    //         (function () {
+    //             // generate an array of random data
+    //             var data = [], time = (new Date()).getTime(), i;
+    //             for (i = -400; i <= 0; i += 1) {
+    //                 data.push([
+    //                     time + i * 400,
+    //                     // Math.round(Math.random() * 100)
+    //                     100
+    //                 ]);
+    //             }
+    //             return data;
+    //         }())
+    //     }]
+    // });
+    // function requestData1() {
+    //     $.ajax({
+    //         url: '/message',
+    //         success: function(point) {
+    //             // var series = chart.series[0],
+    //             //     shift = series.data.length > 20; // 当数据点数量超过 20 个，则指定删除第一个点
+    //             //
+    //             // // 新增点操作
+    //             // //具体的参数详见：https://api.hcharts.cn/highcharts#Series.addPoint
+    //             // chart.series[0].addPoint(point, true, shift);
+    //
+    //             chart.series[0].setData(data);
+    //             // 一秒后继续调用本函数
+    //             setTimeout(requestData1, 1);
+    //         },
+    //         cache: false
+    //     });
+    // }
+
+
+    //发送消息
+    function send() {
+        var message = document.getElementById('text').value;
+        websocket.send(message);
+    }
+
+</script>
+</html>
