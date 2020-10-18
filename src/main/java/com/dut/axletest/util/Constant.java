@@ -4,7 +4,7 @@ public class Constant {
     //原始数据实时展示的点的个数
     public static int  POINTS_NUMS_DYNAMIC_STITCHING_DIAGRAM = 50000;
     //每次增量获得的最大个数
-    public static int  POINTS_NUMS_INCREMENT = 50;
+    public static int  POINTS_NUMS_INCREMENT = 20;
     //点的默认编号
     public static int POINT_NUM = 1;
 
@@ -12,7 +12,7 @@ public class Constant {
     public static long SLIDING_WINDOW_PERUNIT_TIME= 1000;
 
     //桶的个数
-    public static int BUCKETS_SLIDING_WINDOWS = 5;
+    public static int BUCKETS_SLIDING_WINDOWS = 50;
 
 
 }

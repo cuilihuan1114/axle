@@ -1,0 +1,16 @@
+2020-10-18 09:48:25 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 3644 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-18 09:48:25 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-18 09:48:26 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-18 09:48:26 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-18 09:48:26 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-18 09:48:26 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-18 09:48:26 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-18 09:48:26 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 536 ms
+2020-10-18 09:48:26 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-18 09:48:26 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-18 09:48:26 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-18 09:48:26 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-18 09:48:26 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.101 seconds (JVM running for 1.635)
+2020-10-18 09:48:26 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-18 09:48:26 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-18 09:48:26 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms

@@ -22,13 +22,11 @@ public class LimitQueue<E> implements Queue<E> {
     }
 
     /**
-     * 入队
-     *
-     * @param e
+     * 入队操作 如果队列满了 则要移除头部消息 然后将消息添加到队尾
+     * @param e 具体的消息
      */
     @Override
     public  boolean offer(E e) {
-
         if (queue.size() >= limit) {
             //如果超出长度,入队时,先出队  
             queue.poll();
@@ -38,8 +36,7 @@ public class LimitQueue<E> implements Queue<E> {
 
     /**
      * 出队
-     *
-     * @return
+     * @return 返回具体的出队消息
      */
     @Override
     public E poll() {
@@ -48,8 +45,7 @@ public class LimitQueue<E> implements Queue<E> {
 
     /**
      * 获取队列
-     *
-     * @return
+     * @return 返回队列
      */
     public Queue<E> getQueue() {
         return queue;
@@ -66,7 +62,6 @@ public class LimitQueue<E> implements Queue<E> {
 
     @Override
     public boolean add(E e) {
-
         return offer(e);
     }
 

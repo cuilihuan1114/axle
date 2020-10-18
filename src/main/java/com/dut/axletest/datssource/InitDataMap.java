@@ -13,13 +13,18 @@ public class InitDataMap {
     //用来保存一个初始化为POINTS_NUMS_DYNAMIC_STITCHING_DIAGRAM的集合
     private Map<Long, Queue<Message>> dataMap = new HashMap<>();
 
+    /**
+     * 向集合当中放入数据
+     * @param message 消息体
+     * @return 返回是否放入成功
+     */
     public boolean put(Message message) {
         if(message == null)
             return false;
-        if (dataMap.containsKey(message.getNumber())) {
+        if (dataMap.containsKey(message.getNumber())) { //如果之前已经存放过了 直接获得对应的队列 放入消息
             Queue<Message> messageQueue = dataMap.get(message.getNumber());
             return messageQueue.offer(message);
-        }else {
+        }else {//为这个id创建一个对应的队列
             Queue<Message> queue = new LimitQueue<>(Constant.POINTS_NUMS_DYNAMIC_STITCHING_DIAGRAM);
             queue.offer(message);
             dataMap.put(message.getNumber(), queue);
@@ -27,6 +32,11 @@ public class InitDataMap {
         return true;
     }
 
+    /**
+     * 根据编号从集合当中拿取对应的消息列表
+     * @param number 编号
+     * @return 返回消息集合
+     */
     public List<Message> get(Long number) {
         List<Message> list = new LinkedList<>();
         if (dataMap.containsKey(number)) {

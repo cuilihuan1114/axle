@@ -1,0 +1,513 @@
+2020-10-16 09:39:48 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 13064 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 09:39:48 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 09:39:49 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 09:39:49 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 09:39:49 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 09:39:49 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 09:39:49 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 09:39:49 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 692 ms
+2020-10-16 09:39:49 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 09:39:49 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-10-16 09:39:49 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 09:39:49 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 09:39:49 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 09:39:49 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.54 seconds (JVM running for 2.764)
+2020-10-16 09:40:05 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 09:40:05 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 09:40:05 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-10-16 10:47:55 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 17184 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 10:47:55 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 10:47:55 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 10:47:55 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 10:47:55 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 10:47:55 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 10:47:55 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 10:47:55 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 519 ms
+2020-10-16 10:47:55 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 10:47:55 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 10:47:55 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 10:47:55 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 10:47:55 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.039 seconds (JVM running for 1.499)
+2020-10-16 10:47:55 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 10:47:55 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 10:47:55 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-10-16 10:49:45 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 16460 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 10:49:45 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 10:49:46 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 10:49:46 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 10:49:46 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 10:49:46 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 10:49:46 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 10:49:46 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 524 ms
+2020-10-16 10:49:46 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 10:49:46 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 10:49:46 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 10:49:46 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 10:49:46 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.044 seconds (JVM running for 1.502)
+2020-10-16 10:49:46 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 10:49:46 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 10:49:46 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-10-16 10:52:28 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 164 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 10:52:28 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 10:52:28 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 10:52:28 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 10:52:28 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 10:52:28 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 10:52:28 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 10:52:28 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 585 ms
+2020-10-16 10:52:29 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 10:52:29 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 10:52:29 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 10:52:29 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 10:52:29 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.147 seconds (JVM running for 1.645)
+2020-10-16 10:52:29 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 10:52:29 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 10:52:29 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-10-16 10:56:27 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 5752 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 10:56:27 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 10:56:27 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 10:56:27 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 10:56:27 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 10:56:27 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 10:56:27 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 10:56:27 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 511 ms
+2020-10-16 10:56:27 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 10:56:28 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 10:56:28 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 10:56:28 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 10:56:28 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.032 seconds (JVM running for 1.486)
+2020-10-16 10:56:28 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 10:56:28 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 10:56:28 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-10-16 11:03:05 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 180 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 11:03:05 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 11:03:05 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 11:03:06 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 11:03:06 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 11:03:06 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 11:03:06 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 11:03:06 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 570 ms
+2020-10-16 11:03:06 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 11:03:06 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 11:03:06 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 11:03:06 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 11:03:06 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.117 seconds (JVM running for 1.581)
+2020-10-16 11:03:06 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 11:03:06 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 11:03:06 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-10-16 11:07:16 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 15076 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 11:07:16 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 11:07:16 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 11:07:16 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 11:07:16 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 11:07:16 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 11:07:16 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 11:07:16 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 503 ms
+2020-10-16 11:07:16 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 11:07:16 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 11:07:16 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 11:07:16 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 11:07:16 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.018 seconds (JVM running for 1.481)
+2020-10-16 11:07:16 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 11:07:16 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 11:07:16 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-10-16 11:16:06 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 13032 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 11:16:06 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 11:16:06 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 11:16:06 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 11:16:06 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 11:16:06 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 11:16:06 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 11:16:06 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 528 ms
+2020-10-16 11:16:06 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 11:16:06 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 11:16:06 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 11:16:06 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 11:16:06 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.05 seconds (JVM running for 1.508)
+2020-10-16 11:16:06 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 11:16:06 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 11:16:06 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-10-16 11:18:24 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 16036 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 11:18:24 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 11:18:24 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 11:18:24 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 11:18:24 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 11:18:24 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 11:18:24 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 11:18:24 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 511 ms
+2020-10-16 11:18:25 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 11:18:25 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 11:18:25 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 11:18:25 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 11:18:25 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.029 seconds (JVM running for 1.527)
+2020-10-16 11:18:25 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 11:18:25 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 11:18:25 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-10-16 11:22:27 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 16556 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 11:22:27 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 11:22:28 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 11:22:28 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 11:22:28 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 11:22:28 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 11:22:28 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 11:22:28 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 512 ms
+2020-10-16 11:22:28 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 11:22:28 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 11:22:28 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 11:22:28 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 11:22:28 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.026 seconds (JVM running for 1.481)
+2020-10-16 11:22:28 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 11:22:28 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 11:22:28 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-10-16 11:23:20 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 2712 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 11:23:20 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 11:23:20 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 11:23:20 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 11:23:20 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 11:23:20 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 11:23:20 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 11:23:20 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 510 ms
+2020-10-16 11:23:20 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 11:23:20 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 11:23:20 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 11:23:20 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 11:23:20 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.026 seconds (JVM running for 1.495)
+2020-10-16 11:23:20 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 11:23:20 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 11:23:20 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-10-16 11:24:10 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 9628 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 11:24:10 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 11:24:11 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 11:24:11 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 11:24:11 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 11:24:11 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 11:24:11 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 11:24:11 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 512 ms
+2020-10-16 11:24:11 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 11:24:11 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 11:24:11 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 11:24:11 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 11:24:11 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.023 seconds (JVM running for 1.484)
+2020-10-16 11:24:11 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 11:24:11 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 11:24:11 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-10-16 11:26:10 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 2152 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 11:26:10 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 11:26:11 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 11:26:11 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 11:26:11 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 11:26:11 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 11:26:11 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 11:26:11 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 507 ms
+2020-10-16 11:26:11 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 11:26:11 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 11:26:11 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 11:26:11 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 11:26:11 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.034 seconds (JVM running for 1.518)
+2020-10-16 11:26:11 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 11:26:11 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 11:26:11 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-10-16 13:50:42 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 5828 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 13:50:42 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 13:50:43 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 13:50:43 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 13:50:43 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 13:50:43 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 13:50:43 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 13:50:43 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 507 ms
+2020-10-16 13:50:43 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 13:50:43 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 13:50:43 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 13:50:43 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 13:50:43 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.027 seconds (JVM running for 1.478)
+2020-10-16 13:50:43 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 13:50:43 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 13:50:43 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-10-16 13:51:48 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 1672 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 13:51:48 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 13:51:48 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 13:51:48 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 13:51:48 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 13:51:48 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 13:51:48 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 13:51:48 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 536 ms
+2020-10-16 13:51:48 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 13:51:48 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 13:51:48 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 13:51:48 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 13:51:48 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.049 seconds (JVM running for 1.522)
+2020-10-16 13:51:48 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 13:51:48 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 13:51:48 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-10-16 13:52:41 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 16584 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 13:52:41 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 13:52:42 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 13:52:42 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 13:52:42 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 13:52:42 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 13:52:42 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 13:52:42 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 507 ms
+2020-10-16 13:52:42 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 13:52:42 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 13:52:42 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 13:52:42 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 13:52:42 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.025 seconds (JVM running for 1.479)
+2020-10-16 13:52:42 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 13:52:42 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 13:52:42 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-10-16 13:53:37 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 16208 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 13:53:37 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 13:53:37 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 13:53:37 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 13:53:37 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 13:53:37 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 13:53:37 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 13:53:37 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 504 ms
+2020-10-16 13:53:37 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 13:53:37 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 13:53:37 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 13:53:37 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 13:53:37 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.018 seconds (JVM running for 1.473)
+2020-10-16 13:53:38 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 13:53:38 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 13:53:38 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-10-16 13:54:48 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 5604 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 13:54:48 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 13:54:49 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 13:54:49 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 13:54:49 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 13:54:49 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 13:54:49 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 13:54:49 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 505 ms
+2020-10-16 13:54:49 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 13:54:49 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 13:54:49 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 13:54:49 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 13:54:49 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.013 seconds (JVM running for 1.472)
+2020-10-16 13:54:49 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 13:54:49 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 13:54:49 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-10-16 13:55:00 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 12828 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 13:55:00 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 13:55:00 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 13:55:00 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 13:55:00 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 13:55:00 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 13:55:00 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 13:55:00 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 504 ms
+2020-10-16 13:55:00 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 13:55:00 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 13:55:01 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 13:55:01 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 13:55:01 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.058 seconds (JVM running for 1.527)
+2020-10-16 13:55:01 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 13:55:01 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 13:55:01 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-10-16 13:55:48 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 6504 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 13:55:48 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 13:55:49 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 13:55:49 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 13:55:49 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 13:55:49 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 13:55:49 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 13:55:49 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 504 ms
+2020-10-16 13:55:49 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 13:55:49 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 13:55:49 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 13:55:49 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 13:55:49 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.017 seconds (JVM running for 1.468)
+2020-10-16 13:55:49 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 13:55:49 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 13:55:49 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-10-16 13:57:36 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 1620 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 13:57:36 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 13:57:37 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 13:57:37 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 13:57:37 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 13:57:37 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 13:57:37 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 13:57:37 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 504 ms
+2020-10-16 13:57:37 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 13:57:37 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 13:57:37 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 13:57:37 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 13:57:37 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.022 seconds (JVM running for 1.493)
+2020-10-16 13:57:37 [http-nio-8080-exec-5] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 13:57:37 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 13:57:37 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-10-16 13:59:20 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 6540 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 13:59:20 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 13:59:21 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 13:59:21 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 13:59:21 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 13:59:21 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 13:59:21 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 13:59:21 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 499 ms
+2020-10-16 13:59:21 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 13:59:21 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 13:59:21 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 13:59:21 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 13:59:21 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.005 seconds (JVM running for 1.454)
+2020-10-16 13:59:21 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 13:59:21 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 13:59:21 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-10-16 14:01:22 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 9888 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 14:01:22 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 14:01:23 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 14:01:23 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 14:01:23 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 14:01:23 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 14:01:23 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 14:01:23 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 504 ms
+2020-10-16 14:01:23 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 14:01:23 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 14:01:23 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 14:01:23 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 14:01:23 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.021 seconds (JVM running for 1.517)
+2020-10-16 14:01:23 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 14:01:23 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 14:01:23 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-10-16 14:02:24 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 14732 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 14:02:24 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 14:02:24 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 14:02:24 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 14:02:24 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 14:02:24 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 14:02:24 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 14:02:24 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 499 ms
+2020-10-16 14:02:24 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 14:02:24 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 14:02:24 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 14:02:24 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 14:02:24 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.01 seconds (JVM running for 1.467)
+2020-10-16 14:02:25 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 14:02:25 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 14:02:25 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-10-16 14:05:02 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 12776 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 14:05:02 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 14:05:02 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 14:05:02 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 14:05:02 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 14:05:02 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 14:05:02 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 14:05:02 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 510 ms
+2020-10-16 14:05:03 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 14:05:03 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 14:05:03 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 14:05:03 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 14:05:03 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.025 seconds (JVM running for 1.479)
+2020-10-16 14:05:03 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 14:05:03 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 14:05:03 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-10-16 14:08:44 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 11260 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 14:08:44 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 14:08:45 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 14:08:45 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 14:08:45 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 14:08:45 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 14:08:45 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 14:08:45 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 514 ms
+2020-10-16 14:08:45 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 14:08:45 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 14:08:45 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 14:08:45 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 14:08:45 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.033 seconds (JVM running for 1.51)
+2020-10-16 14:08:45 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 14:08:45 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 14:08:45 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-10-16 14:09:49 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 8664 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 14:09:49 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 14:09:49 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 14:09:49 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 14:09:49 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 14:09:49 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 14:09:49 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 14:09:49 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 506 ms
+2020-10-16 14:09:49 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 14:09:49 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 14:09:50 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 14:09:50 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 14:09:50 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.017 seconds (JVM running for 1.472)
+2020-10-16 14:09:50 [http-nio-8080-exec-6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 14:09:50 [http-nio-8080-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 14:09:50 [http-nio-8080-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-10-16 14:11:38 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 11796 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 14:11:38 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 14:11:39 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 14:11:39 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 14:11:39 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 14:11:39 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 14:11:39 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 14:11:39 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 511 ms
+2020-10-16 14:11:39 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 14:11:39 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 14:11:39 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 14:11:39 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 14:11:39 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.021 seconds (JVM running for 1.48)
+2020-10-16 14:11:39 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 14:11:39 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 14:11:39 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-10-16 14:13:58 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 17064 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 14:13:58 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 14:13:58 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 14:13:58 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 14:13:58 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 14:13:58 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 14:13:58 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 14:13:58 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 503 ms
+2020-10-16 14:13:59 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 14:13:59 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 14:13:59 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 14:13:59 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 14:13:59 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.016 seconds (JVM running for 1.466)
+2020-10-16 14:13:59 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 14:13:59 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 14:13:59 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-10-16 14:18:19 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 12604 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 14:18:19 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 14:18:19 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 14:18:19 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 14:18:19 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 14:18:19 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 14:18:19 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 14:18:19 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 512 ms
+2020-10-16 14:18:19 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 14:18:19 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 14:18:19 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 14:18:19 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 14:18:19 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.031 seconds (JVM running for 1.493)
+2020-10-16 14:18:19 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 14:18:19 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 14:18:19 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-10-16 14:19:52 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 11024 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 14:19:52 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 14:19:53 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 14:19:53 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 14:19:53 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 14:19:53 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 14:19:53 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 14:19:53 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 517 ms
+2020-10-16 14:19:53 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 14:19:53 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 14:19:53 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 14:19:53 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 14:19:53 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.032 seconds (JVM running for 1.49)
+2020-10-16 14:19:53 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 14:19:53 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 14:19:53 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-10-16 14:22:32 [main] INFO  com.dut.axletest.AxletestApplication - Starting AxletestApplication on cui with PID 5764 (C:\Users\MSI\IdeaProjects\axle\target\classes started by cuilihuan in C:\Users\MSI\IdeaProjects\axle)
+2020-10-16 14:22:32 [main] INFO  com.dut.axletest.AxletestApplication - No active profile set, falling back to default profiles: default
+2020-10-16 14:22:32 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-16 14:22:32 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-16 14:22:32 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 14:22:32 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 14:22:32 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 14:22:32 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 576 ms
+2020-10-16 14:22:32 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 14:22:32 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-16 14:22:32 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-16 14:22:32 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 14:22:32 [main] INFO  com.dut.axletest.AxletestApplication - Started AxletestApplication in 1.13 seconds (JVM running for 1.644)
+2020-10-16 14:22:33 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 14:22:33 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 14:22:33 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms

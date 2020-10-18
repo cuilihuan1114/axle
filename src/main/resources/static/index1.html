@@ -43,24 +43,12 @@ Welcome<br/>
                             success: function (data) {
                                 // alert(data.length);
                                 for (var i = 0, l = data.length - 1; i < l; i++) {
-                                    //     var x = data[i].time;
-                                    //     var y = data[i].data;
-                                    //     // console.log(x+" "+y);
-                                    //     series.addPoint([x, y], true, true);
-                                    // }
-                                    // console.log(data[i].data);
-                                    var x = (new Date()).getTime(), // current time
+                                        var x = data[i].time;
                                         y = parseFloat(data[i].data);
-                                    // y = Math.round(Math.random() * 2);
                                     increateData.push([x, y]);
-                                    // series.addPoint([x, y], false,true);
-
-                                    // if (i % 5 == 0) {
-                                    // alert("aa");
-                                    // chart.redraw();
-                                    // }
-
+                                    series.addPoint([x, y], false,true);
                                 }
+                                chart.redraw();
 
                             }
                         });

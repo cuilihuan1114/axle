@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.List;
 
 @Controller
-public class SocketController {
+public class RowDataRealStatisticsController {
 
     @Autowired
     DataMap dataMap;
@@ -19,8 +19,6 @@ public class SocketController {
     @RequestMapping("/message/init/rowdata/{id}")
     @ResponseBody
     public List<Message> initDynamicRowDataRealStatistics(@PathVariable Long id){
-//        String name=message.getName();
-//        System.out.println("aaaa");
         return dataMap.getInitAllMessage(id);
 
     }
@@ -28,9 +26,6 @@ public class SocketController {
     @RequestMapping("/message/increment/rowdata/{id}")
     @ResponseBody
     public List<Message> incrementDynamicRowDataRealStatistics(@PathVariable Long id){
-//        String name=message.getName();
-//        System.out.println("aaaa");
         return dataMap.getIncreamMessage(id);
-
     }
 }

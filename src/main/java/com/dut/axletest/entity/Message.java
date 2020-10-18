@@ -2,13 +2,13 @@ package com.dut.axletest.entity;
 
 public class Message {
 
-    //所属名
+    //轴承所在的单位名
     private String ownerShip;
 
     //消息产生的时间
     private long time;
 
-    //消息的编号
+    //产生消息的轴承编号
     private long number;
 
     //消息的具体数据
